@@ -5,11 +5,11 @@
 #
 # Author: Bradley J Kavanagh
 # Email: bradkav@gmail.com
-# Last updated: 30/10/2024
+# Last updated: 01/06/2026 by elavoie1
 
 import numpy as np
 from numpy import pi, cos, sin
-from scipy.integrate import trapz, cumtrapz, quad
+from scipy.integrate import trapezoid, cumulative_trapezoid, quad
 from scipy.interpolate import interp1d,InterpolatedUnivariateSpline
 from numpy.random import rand
 from scipy.special import erf
